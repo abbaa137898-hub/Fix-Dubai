@@ -1,0 +1,6 @@
+{
+  "name": "FIX DUBAI",
+  "description": "Expert 24/7 Home Maintenance, AC Repair, Plumbing, Electrical, and Renovation Services in Dubai & UAE.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
