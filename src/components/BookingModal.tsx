@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ServiceItem } from '../types';
 import { X, MessageSquare, CheckCircle2 } from 'lucide-react';
-import { PHONE_NUMBER, PHONE_CLEAN, EMIRATES_LIST } from '../data/servicesData';
+import { PHONE_NUMBER, PHONE_CLEAN, EMIRATES_LIST, DUBAI_AREAS } from '../data/servicesData';
 
 interface BookingModalProps {
   service: ServiceItem | null;
@@ -112,7 +112,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ service, onClose }) 
                   onChange={(e) => setEmirate(e.target.value)}
                   className="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 text-sm focus:ring-2 focus:ring-[#ea580c] focus:outline-none bg-white font-semibold"
                 >
-                  {EMIRATES_LIST.map(em => <option key={em} value={em}>{em}</option>)}
+                  {DUBAI_AREAS.map(area => <option key={area} value={area}>{area}</option>)}
                 </select>
               </div>
               <div>
