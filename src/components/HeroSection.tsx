@@ -77,7 +77,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onNavigate
               </div>
               <div className="flex items-center gap-2 text-sm text-gray-200">
                 <CheckCircle2 className="w-4 h-4 text-green-400 shrink-0" />
-                <span>Free Inspection Quotes</span>
+                <span>Inspection Quotes</span>
               </div>
             </div>
 
