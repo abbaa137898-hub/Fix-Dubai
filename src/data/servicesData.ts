@@ -323,10 +323,4 @@ export const CUSTOMER_REVIEWS: ReviewItem[] = [
 
 export const EMIRATES_LIST = [
   'Dubai',
-  'Abu Dhabi',
-  'Sharjah',
-  'Ajman',
-  'Ras Al Khaimah',
-  'Fujairah',
-  'Umm Al Quwain'
 ];
