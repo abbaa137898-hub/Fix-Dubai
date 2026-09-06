@@ -8,7 +8,7 @@ import homeRenovationImg from '../assets/images/home_renovation_technician_17831
 export const PHONE_NUMBER = '+971 56 837 4070';
 export const PHONE_CLEAN = '+971568374070';
 export const WHATSAPP_LINK = 'https://wa.me/971568374070?text=Hello%20Fix%20Dubai,%20I%20need%20urgent%20home%20service%20in%20the%20UAE.';
-export const EMAIL_ADDRESS = 'rasheedsubhanidell@gmail.com';
+export const EMAIL_ADDRESS = 'fixdubai@gmail.com';
 export const DUBIZZLE_PROFILE_LINK = 'https://www.dubizzle.com/en/public-profile/b7957f53-86b2-4a98-9009-ce35be59c704/';
 export const FACEBOOK_PAGE_LINK = 'https://www.facebook.com/share/14iB9QdHVAg/?mibextid=wwXIfr';
 
