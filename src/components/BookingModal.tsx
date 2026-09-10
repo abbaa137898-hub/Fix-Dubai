@@ -108,8 +108,8 @@ export const BookingModal: React.FC<BookingModalProps> = ({ service, onClose }) 
               <div>
                 <label className="block text-xs font-extrabold text-gray-700 uppercase mb-1">Emirate</label>
                 <select
-                  value={emirate}
-                  onChange={(e) => setEmirate(e.target.value)}
+                 value={area}
+                  onChange={(e) => setArea(e.target.value)}
                   className="w-full px-3.5 py-2.5 rounded-xl border border-gray-300 text-sm focus:ring-2 focus:ring-[#ea580c] focus:outline-none bg-white font-semibold"
                 >
                   {DUBAI_AREAS.map(area => <option key={area} value={area}>{area}</option>)}
