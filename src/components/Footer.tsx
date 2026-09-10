@@ -145,6 +145,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onNavigateToRoute })
     </Link>
   </li>
 ))}
+</ul>
 </div>
 
           {/* Direct Contact Hotline */}
