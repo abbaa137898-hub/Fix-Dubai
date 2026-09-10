@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { Wrench, Phone, Mail, Clock, MapPin, ShieldCheck, Flame, ExternalLink } from 'lucide-react';
 import { PHONE_NUMBER, PHONE_CLEAN, EMAIL_ADDRESS, WHATSAPP_LINK, DUBIZZLE_PROFILE_LINK, FACEBOOK_PAGE_LINK } from '../data/servicesData';
 import { NavigationTab } from '../types';
-import { CORE_SERVICES } from '../data/servicesData';
+import { CORE_SERVICES, DUBAI_AREAS } from '../data/servicesData';
 
 interface FooterProps {
   onNavigate: (tab: NavigationTab) => void;
