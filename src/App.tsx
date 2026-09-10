@@ -250,7 +250,7 @@ export default function App() {
           <Route path="/tiling-flooring" element={renderServicePage('/Tiling-Flooring')} />
           <Route path="/carpentry-works" element={renderServicePage('/carpentry-works')} />
           <Route path="/home-repair-renovation" element={renderServicePage('/home-repair-renovation')} />
-
+          <Route path="/areas" element={<AreasPage />} />
           {/* Dynamic Route Handler for aliases or direct path queries */}
           <Route path="/:slug" element={<DynamicServiceRouteWrapper renderServicePage={renderServicePage} />} />
 
