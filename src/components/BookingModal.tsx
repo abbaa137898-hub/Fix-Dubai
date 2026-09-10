@@ -19,7 +19,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ service, onClose }) 
   const [submitted, setSubmitted] = useState(false);
 
   const generateWaLink = () => {
-    const txt = `Hello Fix Dubai,\n\nI want to BOOK service:\n*Service:* ${service.title}\n*Name:* ${name || 'UAE Client'}\n*Phone:* ${phone || 'N/A'}\n*Emirate:* ${emirate}\n*Address:* ${address || 'TBD'}\n*Timing:* ${timeSlot}`;
+    const txt = `Hello Fix Dubai,\n\nI want to BOOK service:\n*Service:* ${service.title}\n*Name:* ${name || 'UAE Client'}\n*Phone:* ${phone || 'N/A'}\n*Emirate:* ${emirate}\n*Area:* ${area}\n*Address:* ${address || 'TBD'}\n*Timing:* ${timeSlot}`;
     return `https://wa.me/971568374070?text=${encodeURIComponent(txt)}`;
   };
 
