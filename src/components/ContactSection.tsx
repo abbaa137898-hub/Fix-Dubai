@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, Clock, MessageSquare, CheckCircle2, Send, ExternalLink } from 'lucide-react';
-import { PHONE_NUMBER, PHONE_CLEAN, EMAIL_ADDRESS, CORE_SERVICES, EMIRATES_LIST, DUBIZZLE_PROFILE_LINK, FACEBOOK_PAGE_LINK } from '../data/servicesData';
+import { PHONE_NUMBER, PHONE_CLEAN, EMAIL_ADDRESS, CORE_SERVICES, EMIRATES_LIST, DUBAI_AREAS, DUBIZZLE_PROFILE_LINK, FACEBOOK_PAGE_LINK } from '../data/servicesData';
 import { QuoteFormData } from '../types';
 
 export const ContactSection: React.FC = () => {
@@ -236,7 +236,7 @@ export const ContactSection: React.FC = () => {
 
                     <div>
                       <label className="block text-xs font-extrabold text-[#0b2545] uppercase mb-1.5">
-                        Emirate
+                        Dubai Area
                       </label>
                       <select
                         name="emirate"
@@ -244,8 +244,8 @@ export const ContactSection: React.FC = () => {
                         onChange={handleInputChange}
                         className="w-full px-4 py-3.5 rounded-xl border border-gray-300 focus:ring-2 focus:ring-[#ea580c] focus:outline-none bg-white text-sm font-semibold"
                       >
-                        {EMIRATES_LIST.map((em) => (
-                          <option key={em} value={em}>{em}</option>
+                        {DUBAI_AREAS.map((area) => (
+                          <option key={area} value={area}>{area}</option>
                         ))}
                       </select>
                     </div>
