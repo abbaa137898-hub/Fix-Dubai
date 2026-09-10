@@ -14,6 +14,7 @@ import { StickyWhatsApp } from './components/StickyWhatsApp';
 import { BookingModal } from './components/BookingModal';
 import { PdfBrochureModal } from './components/PdfBrochureModal';
 import { Footer } from './components/Footer';
+import AreasPage from './components/AreasPage';
 import { ServiceDetailPage } from './components/ServiceDetailPage';
 import { getServicePageByRoute } from './data/servicePagesData';
 import { CORE_SERVICES } from './data/servicesData';
