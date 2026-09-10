@@ -16,6 +16,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ service, onClose }) 
   const [emirate, setEmirate] = useState('Dubai');
   const [timeSlot, setTimeSlot] = useState('⚡ Emergency (Next 45 mins)');
   const [area, setArea] = useState('');
+  const [address, setAddress] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
   const generateWaLink = () => {
