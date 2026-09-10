@@ -128,6 +128,22 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onNavigateToRoute })
               ))}
             </ul>
           </div>
+          {/* Dubai Service Areas */}
+<div className="mt-8">
+  <h4 className="font-heading font-black text-sm uppercase tracking-wider text-white mb-4">
+    Areas We Serve
+  </h4>
+
+  <ul className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2 text-xs text-gray-300">
+    {DUBAI_AREAS.map((area) => (
+      <li key={area}>
+        <span className="hover:text-[#ea580c] transition">
+          {area}
+        </span>
+      </li>
+    ))}
+  </ul>
+</div>
 
           {/* Direct Contact Hotline */}
           <div className="space-y-3">
