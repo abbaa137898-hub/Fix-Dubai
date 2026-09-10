@@ -135,14 +135,16 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onNavigateToRoute })
   </h4>
 
   <ul className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2 text-xs text-gray-300">
-    {DUBAI_AREAS.map((area) => (
-      <li key={area}>
-        <span className="hover:text-[#ea580c] transition">
-          {area}
-        </span>
-      </li>
-    ))}
-  </ul>
+   {DUBAI_AREAS.map((area) => (
+  <li key={area}>
+    <Link
+      to="/areas"
+      className="hover:text-[#ea580c] transition-colors"
+    >
+      {area}
+    </Link>
+  </li>
+))}
 </div>
 
           {/* Direct Contact Hotline */}
