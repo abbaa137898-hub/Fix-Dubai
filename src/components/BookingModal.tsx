@@ -107,7 +107,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ service, onClose }) 
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
-                <label className="block text-xs font-extrabold text-gray-700 uppercase mb-1">Emirate</label>
+                <label className="block text-xs font-extrabold text-gray-700 uppercase mb-1">DUBAI AREA</label>
                 <select
                  value={area}
                   onChange={(e) => setArea(e.target.value)}
