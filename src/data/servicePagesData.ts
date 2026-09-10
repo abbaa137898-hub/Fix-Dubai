@@ -9,7 +9,7 @@ export const DUBAI_AREAS = [
   'Dubai Marina', 'Jumeirah Beach Residence (JBR)', 'Palm Jumeirah', 'Downtown Dubai',
   'Business Bay', 'Arabian Ranches', 'Dubai Hills Estate', 'Jumeirah Village Circle (JVC)',
   'Jumeirah Lakes Towers (JLT)', 'The Springs & Meadows', 'Emirates Hills', 'Mirdif',
-  'Al Barsha', 'DAMAC Hills', 'Al Furjan', 'Deira & Bur Dubai', 'Sharjah & Ajman'
+  'Al Barsha', 'DAMAC Hills', 'Al Furjan', 'Deira & Bur Dubai',
 ];
 
 export const SERVICE_PAGES: Record<string, ServicePageData> = {
