@@ -117,7 +117,7 @@ const AreasPage: React.FC = () => {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             <Link
-              to="/ac-repairing-Installation"
+              to="/ac-repairing-installation"
               className="bg-white rounded-xl p-6 border border-slate-200 hover:shadow-lg transition"
             >
               <h3 className="font-bold text-slate-900 mb-2">
