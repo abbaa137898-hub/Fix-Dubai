@@ -165,7 +165,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onNavigate
               <div className="space-y-3">
                 <Link
                   to="/ac-repairing-installation"
-                  onClick={() => handleRouteClick('/ac-repairing-Installation')}
+                  onClick={() => handleRouteClick('/ac-repairing-installation')}
                   className="w-full flex items-center justify-between p-3.5 rounded-2xl bg-gray-50 hover:bg-orange-50 border border-gray-200 hover:border-orange-300 transition group text-left"
                 >
                   <div className="flex items-center gap-3">
