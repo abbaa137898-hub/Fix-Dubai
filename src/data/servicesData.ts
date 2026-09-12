@@ -15,7 +15,7 @@ export const FACEBOOK_PAGE_LINK = 'https://www.facebook.com/share/14iB9QdHVAg/?m
 export const CORE_SERVICES: ServiceItem[] = [
   {
     id: 'ac-repair',
-    route: '/ac-repairing-Installation',
+    route: '/ac-repairing-installation',
     title: 'AC Repairing & Installation',
     category: 'Cooling & HVAC',
     shortDescription: 'Complete cooling solutions, deep servicing, gas refilling, and quick fixing for hot summer days.',
