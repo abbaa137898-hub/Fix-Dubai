@@ -13,8 +13,8 @@ export const DUBAI_AREAS = [
 ];
 
 export const SERVICE_PAGES: Record<string, ServicePageData> = {
-  '/ac-repairing-Installation': {
-    slug: '/ac-repairing-Installation',
+  '/ac-repairing-installation': {
+    slug: '/ac-repairing-installation',
     aliases: ['/ac-repairing', '/ac-repair', '/ac-installation'],
     serviceId: 'ac-repair',
     title: 'AC Repair & Installation Services in Dubai',
@@ -282,7 +282,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       }
     ],
     coverageAreas: DUBAI_AREAS,
-    relatedSlugs: ['/home-repair-renovation', '/Tiling-Flooring', '/home-maintenance']
+   relatedSlugs: ['/home-repair-renovation', '/tiling-flooring', '/home-maintenance']
   },
 
   '/plumbing-works': {
@@ -418,7 +418,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       }
     ],
     coverageAreas: DUBAI_AREAS,
-    relatedSlugs: ['/home-maintenance', '/electrical-work', '/Tiling-Flooring']
+    relatedSlugs: ['/home-maintenance', '/electrical-work', '/tiling-flooring']
   },
 
   '/electrical-work': {
@@ -704,8 +704,8 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     relatedSlugs: ['/ac-repairing-Installation', '/plumbing-works', '/electrical-work']
   },
 
-  '/Tiling-Flooring': {
-    slug: '/Tiling-Flooring',
+  '/tiling-flooring': {
+    slug: '/tiling-flooring',
     aliases: ['/tiling-flooring', '/tiling', '/flooring'],
     serviceId: 'tiling-flooring',
     title: 'Tiling & Flooring Services in Dubai',
@@ -1013,7 +1013,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       },
       {
         prefixText: 'We also incorporate precision flooring craftsmanship from our',
-        route: '/Tiling-Flooring',
+        route: '/tiling-flooring',
         anchorText: 'Tiling & Flooring Services in Dubai',
         suffixText: 'with large-format porcelain and waterproof membranes.'
       },
@@ -1120,7 +1120,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       }
     ],
     coverageAreas: DUBAI_AREAS,
-    relatedSlugs: ['/painting-ceiling', '/Tiling-Flooring', '/carpentry-works', '/electrical-work']
+    relatedSlugs: ['/painting-ceiling', '/tiling-flooring', '/carpentry-works', '/electrical-work']
   }
 };
 
