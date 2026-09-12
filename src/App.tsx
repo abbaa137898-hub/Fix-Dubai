@@ -241,13 +241,12 @@ export default function App() {
           />
 
           {/* Explicit 8 Dedicated Service Pages */}
-          <Route path="/ac-repairing-Installation" element={renderServicePage('/ac-repairing-Installation')} />
+         <Route path="/ac-repairing-installation" element={renderServicePage('/ac-repairing-installation')} />
           <Route path="/painting-ceiling" element={renderServicePage('/painting-ceiling')} />
           <Route path="/plumbing-works" element={renderServicePage('/plumbing-works')} />
           <Route path="/electrical-work" element={renderServicePage('/electrical-work')} />
           <Route path="/home-maintenance" element={renderServicePage('/home-maintenance')} />
-          <Route path="/Tiling-Flooring" element={renderServicePage('/Tiling-Flooring')} />
-          <Route path="/tiling-flooring" element={renderServicePage('/Tiling-Flooring')} />
+         <Route path="/tiling-flooring" element={renderServicePage('/tiling-flooring')} />
           <Route path="/carpentry-works" element={renderServicePage('/carpentry-works')} />
           <Route path="/home-repair-renovation" element={renderServicePage('/home-repair-renovation')} />
           <Route path="/areas" element={<AreasPage />} />
