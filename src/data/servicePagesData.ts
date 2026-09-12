@@ -554,7 +554,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       }
     ],
     coverageAreas: DUBAI_AREAS,
-    relatedSlugs: ['/home-maintenance', '/ac-repairing-Installation', '/plumbing-works']
+    relatedSlugs: ['/home-maintenance', '/ac-repairing-installation', '/plumbing-works']
   },
 
   '/home-maintenance': {
@@ -588,7 +588,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     internalLinks: [
       {
         prefixText: 'Our home maintenance plans seamlessly connect with our specialized divisions including',
-        route: '/ac-repairing-Installation',
+        route: '/ac-repairing-installation',
         anchorText: 'AC Repair & Installation Services in Dubai',
         suffixText: ', ensuring ice-cold airflow during hot summer months.'
       },
@@ -701,7 +701,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       }
     ],
     coverageAreas: DUBAI_AREAS,
-    relatedSlugs: ['/ac-repairing-Installation', '/plumbing-works', '/electrical-work']
+    relatedSlugs: ['/ac-repairing-installation', '/plumbing-works', '/electrical-work']
   },
 
   '/tiling-flooring': {
