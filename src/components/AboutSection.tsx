@@ -103,13 +103,13 @@ export const AboutSection: React.FC<{ onNavigateToContact: () => void }> = ({ on
 </p>
 
 <p className="text-gray-600 leading-7 mt-4">
-  From air conditioning repair and plumbing to electrical work, painting,
-  ceiling repairs, carpentry, tiling, flooring and renovation, our team
-  provides solutions for a wide range of property needs. We serve customers
-  across major Dubai communities including Jumeirah, Dubai Marina, Jumeirah
-  Village Circle, Al Barsha, Downtown Dubai, Deira, Business Bay and Palm
-  Jumeirah. Our goal is to deliver quality workmanship, clear communication
-  and dependable service for every property maintenance requirement.
+  Fix Dubai provides professional home maintenance services in Dubai,
+  including AC repair and maintenance, plumbing services, electrical
+  services, painting and ceiling work, carpentry, tiling and flooring,
+  home repair, handyman services and home renovation. We provide reliable
+  property maintenance solutions for apartments, villas and residential
+  properties across Dubai, with practical solutions for routine maintenance
+  and urgent repair needs.
 </p>
 </div>
             <div className="pt-4 flex flex-wrap items-center gap-4">
