@@ -74,7 +74,26 @@ export const AboutSection: React.FC<{ onNavigateToContact: () => void }> = ({ on
                 </div>
               </div>
             </div>
-
+<div className="mt-12 max-w-4xl">
+  <h2 className="text-2xl font-extrabold text-[#0b2545] mb-4">
+    Home Maintenance Services in Dubai
+  </h2>
+  <p className="text-gray-600 leading-7">
+    Fix Dubai provides reliable home maintenance and repair services across
+    Dubai, UAE. Our professional team helps homeowners and property managers
+    with AC repair and installation, plumbing, electrical work, painting,
+    ceiling work, carpentry, tiling, flooring, home repairs and renovation.
+    We serve residential properties, apartments, villas and other properties
+    throughout Dubai.
+  </p>
+  <p className="text-gray-600 leading-7 mt-4">
+    Whether you need an urgent AC repair, plumbing solution, electrical
+    service or general home maintenance, Fix Dubai focuses on practical
+    solutions and quality workmanship. Our service areas include Jumeirah,
+    Dubai Marina, Jumeirah Village Circle, Al Barsha, Downtown Dubai, Deira,
+    Business Bay, Palm Jumeirah and many other Dubai communities.
+  </p>
+</div>
             <div className="pt-4 flex flex-wrap items-center gap-4">
               <a
                 href={`tel:${PHONE_CLEAN}`}
