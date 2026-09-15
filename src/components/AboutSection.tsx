@@ -93,6 +93,24 @@ export const AboutSection: React.FC<{ onNavigateToContact: () => void }> = ({ on
     Dubai Marina, Jumeirah Village Circle, Al Barsha, Downtown Dubai, Deira,
     Business Bay, Palm Jumeirah and many other Dubai communities.
   </p>
+  <p className="text-gray-600 leading-7 mt-4">
+  Fix Dubai offers dependable home maintenance services for apartments,
+  villas, offices and residential properties across Dubai. Our experienced
+  technicians handle routine maintenance, urgent repairs and improvement
+  work with a practical and professional approach. We understand that
+  reliable property maintenance helps keep your home safe, comfortable and
+  functional throughout the year.
+</p>
+
+<p className="text-gray-600 leading-7 mt-4">
+  From air conditioning repair and plumbing to electrical work, painting,
+  ceiling repairs, carpentry, tiling, flooring and renovation, our team
+  provides solutions for a wide range of property needs. We serve customers
+  across major Dubai communities including Jumeirah, Dubai Marina, Jumeirah
+  Village Circle, Al Barsha, Downtown Dubai, Deira, Business Bay and Palm
+  Jumeirah. Our goal is to deliver quality workmanship, clear communication
+  and dependable service for every property maintenance requirement.
+</p>
 </div>
             <div className="pt-4 flex flex-wrap items-center gap-4">
               <a
