@@ -53,7 +53,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onNavigate
 
             {/* Headline */}
             <h1 className="font-heading font-black text-3xl sm:text-5xl lg:text-6xl tracking-tight leading-tight sm:leading-none text-white">
-              Your Home, Handled with Care. <br className="hidden sm:block" />
+              Home Maintenance Dubai. <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] to-[#ea580c]">
                 Fast, Clean & Reliable.
               </span>
