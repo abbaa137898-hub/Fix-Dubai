@@ -51,11 +51,11 @@ keywords: [
     responseTime: '30 - 45 Minutes',
     warranty: '90-Day Parts & Workmanship Guarantee',
     emergencyAvailable: true,
-    overview: [
-      'In Dubai and the wider UAE, where summer outdoor temperatures frequently exceed 48°C (118°F), reliable air conditioning is essential for home comfort, respiratory health, and overall safety. Fix Dubai delivers dependable AC repair, AC installation, and ongoing AC maintenance services for residential villas, modern apartments, and commercial businesses across Dubai.',
-      'Whether you are facing sudden warm airflow, a frozen evaporator coil, water leaking through false ceilings, a humming compressor, or unusual noises, our certified HVAC technicians arrive fully prepared. We troubleshoot residential cooling problems and commercial cooling loops using advanced digital manifold gauges, electronic refrigerant leak detectors, and genuine OEM replacement parts.',
-      'We service all major air conditioning brands and systems commonly installed across Dubai communities—including split wall units, ducted DX systems, and central chiller fan coil units (FCUs) found in master-developer communities by Emaar, Nakheel, and DAMAC.'
-    ],
+overview: [
+  'Fix Dubai provides professional AC repair, AC service and AC maintenance in Dubai for homes, villas, apartments and commercial properties.',
+  'Our AC technicians handle emergency AC repair, AC installation, AC not cooling problems, AC gas refilling, compressor issues, split AC repair and central AC repair.',
+  'We provide reliable air conditioning repair and maintenance services across Dubai, helping customers with fast diagnostics, practical solutions and year-round cooling.'
+],
     internalLinks: [
       {
         prefixText: 'For complete year-round property care alongside your AC servicing, explore our',
